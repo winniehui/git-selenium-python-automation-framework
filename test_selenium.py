@@ -25,6 +25,6 @@ def test_me(request):
     title = driver.title
     print ("page title :", title)
     assert title == test_title
-    sleep(1)
+    sleep(2)
     driver.close()
 
